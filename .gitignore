@@ -1,0 +1,54 @@
+# Build directories
+build/
+build-*/
+out/
+cmake-build-*/
+
+# Qt
+*.pro.user
+*.pro.user.*
+*.qmlc
+*.jsc
+*.autosave
+*.pro.shared
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Runtime output - never source
+*.log
+logs/
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+
+# Local / secret configuration
+config/local.*
+*.env
+
+# Qt Creator user-specific project data
+.qtcreator/

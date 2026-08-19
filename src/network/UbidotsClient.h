@@ -1,0 +1,4 @@
+#ifndef UBIDOTSCLIENT_H
+#define UBIDOTSCLIENT_H
+
+#endif // UBIDOTSCLIENT_H
